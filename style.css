@@ -24,7 +24,7 @@ a:hover {
 
 /* Этим свойством добавляем подчеркивание через создание псевдокласса */
 a::after {
-  content: ""
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
