@@ -1,7 +1,6 @@
-
 body {
-  font-family: Monotype Corsiva, sans-serif;
-  background-color: #FBFA74/* фон  */
+  font-family: "Monotype Corsiva", sans-serif;
+  background-color: #fbfa74/* фон  */
 }
 
 .container {
@@ -9,23 +8,23 @@ body {
   margin-left: 80px;
 }
 
-  /* Свойства ссылок */
-a {
+/* Свойства ссылок */
+a{
   font-size: 25px;
   display: block;
-  text-decoration:none;
+  text-decoration: none;
   margin-bottom: 1.2em;
   position: relative;
 }
 
   /* Что делать при наведении на ссылку */
 a:hover {
-  color:orangered;
+  color: orangered;
 }
 
-  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
+/* Этим свойством добавляем подчеркивание через создание псевдокласса */
 a::after {
-  content: '';
+  content: ""
   position: absolute;
   left: 0;
   right: 0;
@@ -33,11 +32,12 @@ a::after {
   border-bottom: 1px solid #dadada;
   width: 300px;
 }
+
 /* переход цвета по прямой линии */
 h1 {
   font-size: 45px;
   font-weight: 500;
-  background-image: linear-gradient(to left, #DCBE98, #544736);
+  background-image: linear-gradient(to left, #dcbe98, #544736);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -46,7 +46,7 @@ h1 {
 h2 {
   font-size: 35px;
   font-weight: 500;
-  background-image: linear-gradient(to left, #DCBE98, #544736);
+  background-image: linear-gradient(to left, #dcbe98, #544736);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -56,30 +56,32 @@ button {
   appearance: none;
   border: 3;
   border-radius: 15px;
-  background: #B3864D;
-  color: #1F180E;
+  background: #b3864d;
+  color: #1f180e;
   padding: 8px 36px;
   font-size: 15px;
 }
 
-  /* Свойства фотографии*/
+/*Свойства фотографии*/
 .photo {
   border-radius: 100px;
-  /* Радиус скругления */
+
+/* Радиус скругления */
   border: 2px solid transparent;
-  /* Параметры рамки */
-  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+
+/* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, "52%");
   object-fit: cover;
 }
 
-  /* Эффект наведения на картинку */
+/*Эффект наведения на картинку */
 .photo:hover {
-  border: 2px solid #39352A;
+  border: 2px solid #39352a;
 }
 p {
   font-size: 25px;
   font-weight: 500;
-  background-image: linear-gradient(to left, #DCBE98, #544736);
+  background-image: linear-gradient(to left, #dcbe98, #544736);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
